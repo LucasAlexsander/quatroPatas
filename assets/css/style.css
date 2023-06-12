@@ -1,8 +1,8 @@
-@import "/assets/css/default.css";
-@import "/assets/css/header.css";
-@import "/assets/css/main.css";
-@import "/assets/css/sobre.css";
-@import "/assets/css/depoimento.css";
-@import "/assets/css/faq.css";
-@import "/assets/css/contribuir.css";
-@import "/assets/css/footer.css";
+@import "default.css";
+@import "header.css";
+@import "main.css";
+@import "sobre.css";
+@import "depoimento.css";
+@import "faq.css";
+@import "contribuir.css";
+@import "footer.css";
