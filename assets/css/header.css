@@ -1,0 +1,52 @@
+header {
+  max-width: var(--maxw);
+  height: 60px;
+  margin: 40px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 6.25rem;
+}
+
+header nav ul {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 23px;
+}
+
+header nav ul.login {
+  flex-wrap: nowrap;
+}
+
+header nav ul li a {
+  font-family: var(--font1);
+  color: var(--color);
+  font-size: 1.125rem;
+  font-weight: 600;
+  padding: 10px 14px;
+}
+
+header nav ul li a.button {
+  border: 3px solid var(--primary);
+  border-radius: 3rem;
+  color: var(--primary);
+  background-color: initial;
+  word-break: unset;
+}
+
+@media (max-width: 1000px) {
+  header nav ul li a {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 800px) {
+  header {
+    padding: 0 30px;
+  }
+  .header-menu {
+    display: none;
+  }
+}

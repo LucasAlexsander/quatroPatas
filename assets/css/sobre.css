@@ -1,0 +1,23 @@
+.sobre div {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.sobre img {
+  height: 590px;
+  border-radius: 1rem;
+}
+
+@media (max-width: 800px) {
+  .sobre {
+    grid-template-columns: 1fr !important;
+    text-align: center;
+  }
+  .sobre img {
+    display: none;
+  }
+  .sobre a {
+    margin: 0 auto;
+  }
+}
