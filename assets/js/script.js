@@ -3,6 +3,7 @@ window.addEventListener("load", function () {
     slidesToShow: 1,
     dots: ".dots",
     draggable: true,
+    scrollLock: true,
     arrows: {
       prev: ".glider-prev",
       next: ".glider-next",
